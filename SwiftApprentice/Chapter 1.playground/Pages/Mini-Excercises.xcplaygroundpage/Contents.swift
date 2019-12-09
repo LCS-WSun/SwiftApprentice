@@ -13,7 +13,7 @@ let testNumber = 14
 
 let evenOdd = testNumber
 
-var answer = (0 + 10) * 10 >> 3 
+var answer = (0 + 10) * 10 >> 3
 
 
 
@@ -26,6 +26,7 @@ var answer = (0 + 10) * 10 >> 3
 //about evenOdd?
 //4. Create a variable called answer and initialize it with the value 0. Increment it by
 //1. Add 10 to it. Multiply it by 10.
+
 
 
 
