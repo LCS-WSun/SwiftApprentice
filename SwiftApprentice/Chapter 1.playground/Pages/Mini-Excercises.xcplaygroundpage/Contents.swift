@@ -58,19 +58,48 @@ Mini Excercise Strings Swift Apprentice
 
 let firstName = Wesley
 
-let lastName
+let lastName = Sun
+
+
+//2. Create a string constant called fullName by adding the firstName and lastName
+//constants together, separated by a space.
+
+
+let fullName = firstName + lastName
+
+
+//3. Using interpolation, create a string constant called myDetails that uses the
+//fullName constant to create a string introducing yourself. For example, my string
+//would read: "Hello, my name is Matt Galloway.".
+
+let myDetails = "Hello my name is \(fullName)"
+
+
+
+Mini-exercises Tuples
+
+
+
+//1. Declare a constant tuple that contains three Int values followed by a Double. Use
+//this to represent a date (month, day, year) followed by an average temperature for
+//that date.
+
+let tuple = (1, 3 Double: 4)
 
 
 
 
-
-
-
-2. Create a string constant called fullName by adding the firstName and lastName
-constants together, separated by a space.
-3. Using interpolation, create a string constant called myDetails that uses the
-fullName constant to create a string introducing yourself. For example, my string
-would read: "Hello, my name is Matt Galloway.".
+    
+    
+    
+    
+2. Change the tuple to name the constituent components. Give them names related
+to the data that they contain: month, day, year and averageTemperature.
+3. In one line, read the day and average temperature values into two constants.
+You’ll need to employ the underscore to ignore the month and year.
+4. Up until now, you’ve only seen constant tuples. But you can create variable
+tuples, too. Change the tuple you created in the exercises above to a variable by
+using var instead of let. Now change the average temperature to a new value.
 
 
  
