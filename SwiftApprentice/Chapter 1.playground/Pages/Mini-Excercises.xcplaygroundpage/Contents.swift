@@ -5,9 +5,9 @@ var str = "Hello, playground"
 //Chapter 1 Mini-Excercises and challenges 
 
  
-Int myAge = 16
+let myAge = 16
 
-var averageAge: Double 16
+var averageAge : Double = 16
 
 let testNumber = 14
 
@@ -50,7 +50,7 @@ let avg1 = (age1 + age2) / 2
 
 
 
-Mini Excercise Strings Swift Apprentice
+//Mini Excercise Strings Swift Apprentice
 
 
 //1. Create a string constant called firstName and initialize it to your first name.
@@ -76,7 +76,7 @@ let myDetails = "Hello my name is \(fullName)"
 
 
 
-Mini-exercises Tuples
+//Mini-exercises Tuples
 
 
 
@@ -84,34 +84,63 @@ Mini-exercises Tuples
 //this to represent a date (month, day, year) followed by an average temperature for
 //that date.
 
-let tuple = (1, 3 Double: 4)
+let date = (1, 13, 2020)
+///date.1
+let averageTemp = -7.5
 
 
 
     
 
-2. Change the tuple to name the constituent components. Give them names related
-to the data that they contain: month, day, year and averageTemperature.
-
-let month = 1
-
-let year = 2
-
-let averageTemperature = 4
+//2. Change the tuple to name the constituent components. Give them names related
+//to the data that they contain: month, day, year and averageTemperature.
+let anotherDate = (month: 1, day: 13, year: 2020)
 
 
 
 
-3. In one line, read the day and average temperature values into two constants.
-You’ll need to employ the underscore to ignore the month and year.
+//3. In one line, read the day and average temperature values into two constants.
+//You’ll need to employ the underscore to ignore the month and year.
 
 
 
-
-4. Up until now, you’ve only seen constant tuples. But you can create variable
-tuples, too. Change the tuple you created in the exercises above to a variable by
-using var instead of let. Now change the average temperature to a new value.
+//
+//4. Up until now, you’ve only seen constant tuples. But you can create variable
+//tuples, too. Change the tuple you created in the exercises above to a variable by
+//using var instead of let. Now change the average temperature to a new value.
 
 
  
 
+//Challenges Chapter 2 ending
+
+
+//Challenge 1
+let coordinate = (1,3)
+
+//Challene 2?
+let coordinate =
+
+//Challenge 3
+let character: Character = "Dog"
+is a valid statement
+
+
+
+//Challenge 4
+let tuple = (day: 15, month: 8, year: 2015)
+let day = tuple.Day
+//It should compile because it is expressed properly in the tuple format
+
+
+//Challenge 5
+let name = "Matt"
+name += " Galloway"
+
+//name is already a used constant so you can't combine the two
+
+
+//Challenge 6
+
+//type of the constant named value?
+let tuple
