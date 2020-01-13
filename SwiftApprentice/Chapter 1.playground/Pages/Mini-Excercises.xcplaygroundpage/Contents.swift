@@ -89,12 +89,25 @@ let tuple = (1, 3 Double: 4)
 
 
     
-    
-    
+
 2. Change the tuple to name the constituent components. Give them names related
 to the data that they contain: month, day, year and averageTemperature.
+
+let month = 1
+
+let year = 2
+
+let averageTemperature = 4
+
+
+
+
 3. In one line, read the day and average temperature values into two constants.
 You’ll need to employ the underscore to ignore the month and year.
+
+
+
+
 4. Up until now, you’ve only seen constant tuples. But you can create variable
 tuples, too. Change the tuple you created in the exercises above to a variable by
 using var instead of let. Now change the average temperature to a new value.
